@@ -1,6 +1,6 @@
 module "ec2" {
     # source = "../terraform-aws-instance"
-     source = "git::https://github.com/Roja-madhira/roboshop-ec2-test.git?ref=main"
+     source = "git::https://github.com/Roja-madhira/terraform-aws-instance.git?ref=main"
     project = var.project
     environment = var.environment
     component = var.component
